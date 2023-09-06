@@ -1,0 +1,153 @@
+* {
+    font-family: 'Courier Prime', monospace;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 25px;
+}
+
+body {
+    background: #555555;
+    background-image: url(Imagenes/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    margin-right: 100px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+.llavecita {
+    display: inline-flex;
+    height: 99px;
+    width: 99px;
+}
+
+h1 {
+    display: inline-flex;
+    justify-content: center;
+    margin: 2%;
+    color: #F2F2F2;
+    font-family: 'Courier Prime', monospace;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 25px;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+.text-area {
+    margin-right: 100px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 10px;
+    background-color: #F2F2F2;
+    opacity: 0.8;
+    border: none;
+    border-radius: 9px;
+    color: #4B4B4B;
+    font-size: 25px;
+}
+
+.mensaje {
+    margin-left: 100px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 10px;
+    background-color: #4B4B4B;
+    opacity: 0.7;
+    background-image: url(Imagenes/llave_vieja.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    border: none;
+    border-radius: 9px;
+    color: #F2F2F2;
+    font-size: 25px;
+}
+
+.text-area:focus {
+    outline: none;
+}
+
+.instrucciones {
+    margin: 10px;
+    color: #F2F2F2;
+    font-size: 13px;
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.botones {
+    margin-right: 100px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.btn-encriptar {
+    height: 60px;
+    width: 300px;
+    margin-right: 30px;
+    background: #EAC117;
+    border: none;
+    border-radius: 10px;
+    color: #4B4B4B;
+    transition: 0.2s all;
+    cursor: pointer;
+}
+
+.btn-encriptar:hover {
+    background: #4B4B4B;
+    color: #EAC117;
+    transform: scale(1.1);
+}
+
+.btn-desencriptar {
+    height: 60px;
+    width: 300px;
+    margin-left: 30px;
+    background: #4B4B4B;
+    border: none;
+    border-radius: 10px;
+    color: #EAC117;
+    transition: 0.2s all;
+    cursor: pointer;
+}
+
+.btn-desencriptar:hover {
+    background: #EAC117;
+    color: #4B4B4B;
+    transform: scale(1.1);
+}
+
+.btn-copiar {
+    height: 60px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 200px;
+    background: #EAC117;
+    border: none;
+    border-radius: 10px;
+    color: #4B4B4B;
+    transition: 0.2s all;
+    cursor: pointer;
+}
+
+.btn-copiar:hover {
+    background: #4B4B4B;
+    color: #EAC117;
+    transform: scale(1.1);
+}

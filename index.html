@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador</title>
+        <link rel="icon" type="image/x-icon" sizes="16x16" href="Imagenes/llave_vieja-32x32.png">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+            <img class="llavecita" src="Imagenes/llavecita.png" alt="llavecita vieja" class="logo">
+
+            <h1>E n c r i p t a d o r</h1>
+        </header>
+
+        <main>
+            <section>
+                <textarea class="text-area" cols="50" rows="25" placeholder="Ingresar texto aquí"></textarea>
+                <div>
+                    <h6 class="instrucciones">Sólo letras minúsculas, sin acentos ni caracteres especiales</h6>
+                </div>
+                <div class="botones">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">ENCRIPTAR</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">DESENCRIPTAR</button>
+                </div>
+            </section>
+            <section>
+                <textarea id="mensaje" class="mensaje" cols="30" rows="15"></textarea>
+                <div>
+                    <button class="btn-copiar" onclick="btnCopiar()">Copiar texto</button>
+                </div>
+            </section>
+        </main>
+
+        <script type="text/javascript" src="/script.js"></script>
+    </body>
+
+</html>
